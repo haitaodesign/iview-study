@@ -29,7 +29,7 @@ module.exports = merge(webpackBaseConfig,{
             }
         }),
         new HtmlWebpackPlugin({
-            filename:'../index_prod.html',
+            filename:'../dist/index_prod.html',
             template:'./index.ejs',
             inject:false
         })
